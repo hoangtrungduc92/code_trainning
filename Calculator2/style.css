@@ -1,0 +1,28 @@
+#row-1, #row-3, #row-4, #row-5, #row-2 {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+  
+}
+#row-1 *, #row-3 *, #row-4 *, #row-5 *, #row-2 * {
+    padding: 5px 5px 5px 5px;
+    background-color: dimgray;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    
+}
+body  {
+    text-align: center;
+}
+#app {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    text-align: center;
+}
+#row-1 *:hover, #row-3 *:hover, #row-4 *:hover, #row-5 *:hover, #row-2 *:hover {
+    background-color: azure;
+}

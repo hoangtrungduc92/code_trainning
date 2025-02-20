@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="col">
+            <div id="col-1" class="col">
+                <h1>Column 1</h1>
+                <input type="number" id="input-11" placeholder="Enter a number"> 
+                <button id="btn1" onclick="addInput(this)">+</button>
+            </div>
+            <div id="col-2" class="col">
+                <h1>Column 2</h1>
+                <input type="number" id="input-21" placeholder="Enter a number"> 
+                <button id="btn2" onclick="addInput(this)">+</button>
+            </div>
+        </div>        
+        <div id="merge-btn" onclick="mergeColumns()">Merge Columns</div>
+        <div id="merge-result"></div>
+    </div>
+</body>
+</html>
